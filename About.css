@@ -1,0 +1,27 @@
+#header img{
+    width: 80px;
+}
+#damian{
+    background-color: #2CD4B6;
+}
+.container .row .col img{
+    width: 100%;
+}
+#back{
+    padding-top: 80px;
+}
+#color{ 
+    display: grid;
+    text-align: center;
+    background-color: #8797F6;
+    font-size: 30px;
+    color: white;
+}
+#Footer
+{
+    background: rgb(33,24,182);
+    background-image: linear-gradient(to bottom, #1f1717, #2d272b, #39393f, #454c51, #555f60);   
+}
+#Footer .container .row a{
+    color: white;
+}
