@@ -2,10 +2,12 @@
     width: 80px;
 }
 #damian{
-    background-color: #2CD4B6;
+    background-image: url(./img/art-1209519_1920\(1\).jpg);
+    
 }
 .container .row .col img{
     width: 100%;
+    border-radius: 50%;
 }
 #back{
     padding-top: 80px;
@@ -13,9 +15,12 @@
 #color{ 
     display: grid;
     text-align: center;
-    background-color: #8797F6;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
     font-size: 30px;
     color: white;
+   
+
 }
 #Footer
 {
