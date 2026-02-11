@@ -1,8 +1,10 @@
+
 #header img{
     width: 80px;
 }
 #damian{
     background-image: url(./img/art-1209519_1920\(1\).jpg);
+    min-height: 100vh;
     
 }
 .container .row .col img{
@@ -19,6 +21,7 @@
     text-shadow: 2px 2px black;
     font-size: 30px;
     color: white;
+    
    
 
 }
@@ -29,4 +32,20 @@
 }
 #Footer .container .row a{
     color: white;
+}
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* empuja el footer hacia abajo */
+main{
+  flex: 1;
 }
