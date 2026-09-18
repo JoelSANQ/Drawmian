@@ -1,124 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Boostrap cssS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-     <link rel="stylesheet" href="./FAQ.css">
-    <title>Drawmian</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="./FAQ.css">
+  <title>Drawmian | FAQ</title>
 </head>
-<header>
-  <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="./index.html">Drawmian<img src="./img/PicsArt_05-26-11.29.33.png" alt=""></a> 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item active ">
-            <a class="nav-link active" href="./FAQ.html">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./About.html">Acerca de mi</a>
-          </li>
-      </div>
-    </div>
-  </nav>
-</header>
-<body> 
-  <section class="FAQ">
-    <div class="text-center pt-5">
-    <h1 class="titulo" >Preguntas Frecuentes</h1>
-  </div>
-  <div class="accordion accordion-flush pt-4 px-5" id="accordionFlushExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-          ¿Qué precio tienen las comisiones?
+<body>
+  <header>
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          Drawmian
+          <img src="./img/PicsArt_05-26-11.29.33.png" alt="Logo Drawmian">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Todos los precios de las comisiones puedes encontrarlas en mi instagram  <span id="insta_logo" class="badge bg-success" data-bs-toggle="modal" data-bs-target="#Modal-instagram">Aquí</span> </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" href="./FAQ.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./About.html">Acerca de mi</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          ¿Tienes otras redes sociales?
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body"> De momento solo cuento con Instagram  </div>
+    </nav>
+  </header>
+
+  <main class="faq-page">
+    <section class="faq-hero">
+      <div class="container">
+        <div class="hero-badge">Preguntas frecuentes</div>
+        <h1>Todo lo que necesitas saber</h1>
+        <p>Antes de pedir una ilustración, revisa esta información para saber precios, tiempos y cómo trabajar juntos.</p>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-          ¿En cuánto tiempo tengo mi ilustración?
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Depende mucho del tipo de Ilustración que se pida, generalmente de 1 a 3 semanas</div>
+    </section>
+
+    <section class="faq-content">
+      <div class="container">
+        <div class="accordion" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                ¿Qué precio tienen las comisiones?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Los precios varían según el tipo de ilustración, el detalle y la complejidad del trabajo. Puedes ver la información completa en mi Instagram
+                <span id="insta_logo" class="badge" data-bs-toggle="modal" data-bs-target="#Modal-instagram">Aquí</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                ¿Tienes otras redes sociales?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">De momento, la principal forma de contacto y contenido es Instagram.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                ¿En cuánto tiempo tengo mi ilustración?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Depende del tipo de ilustración y de la cantidad de detalle. En general, suele tardar entre 1 y 3 semanas.</div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                ¿Puedo colaborar o proponer una idea?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">¡Claro! Puedes contactarme por Instagram para platicar ideas, proyectos o futuras colaboraciones.</div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingFour">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-          ¿Puedo contribuir en alguna ilustración contigo?
-        </button>
-      </h2>
-      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Contactame por medio de mi instagram para ver si podemos hacer algo a futuro ;)</div>
-      </div>
-    </div>
-  </div>
-  </section>
-  <footer id="Footer" class="pt-4 pb-4" >
+    </section>
+  </main>
+
+  <footer id="Footer" class="pt-4 pb-4">
     <div class="container">
       <div class="row text-center">
-           <div class="col-12 col-lg">
-              <a style="text-decoration: none;" href="./FAQ.html">preguntas Frecuentes</a>
-           </div>
-            <div class="col-12 col-lg">
-             <a style="text-decoration: none;" href="./About.html">Acerca de mi</a>
-            </div>
-               <div class="col-12 col-lg">
-              <span style="text-decoration: none; color: white;" href="./index.html">damstun16@gmail.com></span>
-               </div>
+        <div class="col-12 col-lg">
+          <a href="./FAQ.html">Preguntas Frecuentes</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="./About.html">Acerca de mi</a>
+        </div>
+        <div class="col-12 col-lg">
+          <a href="mailto:damstun16@gmail.com">damstun16@gmail.com</a>
+        </div>
       </div>
     </div>
   </footer>
 
-
-
-<div class="modal fade" id="Modal-instagram" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Advertencia</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        Esto te redigirá a instagram
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary"><a style="text-decoration: none; color: white;"  href="https://www.instagram.com/_drawmian_/">Continuar</a> </button>
+  <div class="modal fade" id="Modal-instagram" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Instagram</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Vas a ser redirigido a mi perfil de Instagram para revisar precios y más información.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a class="btn btn-primary" href="https://www.instagram.com/_drawmian_/" target="_blank" rel="noreferrer">Continuar</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-
-
-  <!--JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <!--JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
